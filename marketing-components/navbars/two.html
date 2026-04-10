@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background: none;
+            text-decoration: none;
+            border: none;
+
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: bold;
+        }
+
+        header {
+            width: 100%;
+            height: 72px;
+
+            display: flex;
+            padding: 16px 64px;
+            justify-content: space-between;
+
+            background: linear-gradient(to top, #0c2e74, #1f4fd8,#1f4fd8,#1f4fd8, #3478ff)
+
+        }
+
+        header>img {
+            width: 212px;
+            height: 127.19px;
+        }
+
+        nav {
+            display: flex;
+            gap: 32px;
+            color: white;
+        }
+
+        .dropdown-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+        }
+
+        button {
+            padding: 8px 20px;
+
+        }
+
+        header>button {
+            padding: 8px 20px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/pkmncp_logo.webp" alt="logo pokemon">
+        <nav>
+            <a href="">Mecânica</a>
+            <a href="">Pokémon</a>
+            <a href="">Recompensas e bônus exclusivos</a>
+            <a href="">Notícias</a>
+            <div class="dropdown-menu">
+                <a href="">Comunidade</a>
+                <img src="./assets/images/vetor.svg" alt="dropdown menu arrow icon">
+                <button>
+                </button>
+            </div>
+        </nav>
+        <button>button</button>
+    </header>
+</body>
+
+</html>
